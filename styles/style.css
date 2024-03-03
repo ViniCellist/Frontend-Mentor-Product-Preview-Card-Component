@@ -39,6 +39,13 @@ body {
         align-items: flex-start;
     }
 
+        .container__detail-title {
+            font-family: var(--fontMont);
+            color: var(--dark-grayish-blue);
+            font-size: 1rem;
+            margin: 1rem 0;
+        }
+
         .container__detail-subtext {
             display: flex;
             gap: 1rem;
