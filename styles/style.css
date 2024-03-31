@@ -37,6 +37,7 @@ body {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
+        gap: 1.5rem;
     }
 
         .container__detail-title {
@@ -46,10 +47,32 @@ body {
             margin: 1rem 0;
         }
 
+        .container__detail-name {
+            font-size: 2.5rem;
+            font-weight: bolder;
+        }
+
+        .container__detail-sub {
+            font-family: var(--fontMont);
+            color: var(--dark-grayish-blue);
+            font-size: 1rem;
+            line-height: 1.5rem;
+        }
+
         .container__detail-subtext {
             display: flex;
             gap: 1rem;
             align-items: center;
+        }
+
+        .container__detail-subtext > h2 {
+            font-family: var(--fontFraunces);
+            font-size: 2.5rem;
+            color: var(--dark-cyan);
+        }
+
+        .container__detail-subtext > p {
+            color: var(--dark-grayish-blue);
         }
 
         .container__detail-link {
